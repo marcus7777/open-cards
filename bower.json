@@ -1,0 +1,20 @@
+{
+  "name": "open-cards",
+  "version": "0.0.0",
+  "authors": [
+    "Marcus Hitchins <marcus7777@gmail.com>"
+  ],
+  "description": "cards on the web",
+  "main": "open-cards.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "snap-svg": "marcus7777/snap-svg"
+  }
+}
