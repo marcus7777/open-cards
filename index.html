@@ -8,7 +8,12 @@
   <script>
     window.addEventListener('WebComponentsReady', function() {
     // imports are loaded and elements have been registered
-      debugger;
+      var s = Snap();
+      
+      Snap.load("cards.svg", function(f) {
+        s.append(f.select("g"));
+        debugger;
+      });
     });
   </script>
   <link rel="import" href="/bower_components/snap-svg/snap-svg.html">
