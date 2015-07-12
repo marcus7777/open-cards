@@ -11,7 +11,8 @@
       var s = Snap();
       
       Snap.load("cards.svg", function(f) {
-        s.append(f.select("g"));
+        s.append(f.select("#back"));
+        var test = s.circle(100,200,300);
         debugger;
       },s);
     });
