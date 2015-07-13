@@ -11,10 +11,8 @@
       var s = Snap();
       
       Snap.load("SVG-cards-1.3/back.svg", function(f) {
-        var back = s.add();
+        var back = s.add(f);
         back.drag();
-        //var test = s.circle(100,200,300);
-        debugger;
       },s);
     });
   </script>
